@@ -54,7 +54,7 @@ def addList(node, keys):
     for i in keys:
         addNode(node, Node(i))
 
-# wyszukuje element w drzewie, True lub False, w zależności od tego, czy element istnieje
+# wyszukuje element w drzewie, zwraca True lub False w zależności od tego, czy element istnieje
 
 def search(node, key):
     if node.val < key:
